@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D6E2B242-59B0-0370-715C-496DCA17A181}</ProjectGuid>
+    <ProjectGuid>{942F4A46-8BF0-4FB4-D266-7A457A1E3227}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,7 +49,9 @@
      <Compile Include="Assets\Scripts\BgScaler.cs" />
      <Compile Include="Assets\Scripts\ButtonController.cs" />
      <Compile Include="Assets\Scripts\MonsterGen.cs" />
+     <Compile Include="Assets\Scripts\PanelControler.cs" />
      <Compile Include="Assets\Scripts\PlayerJump.cs" />
+     <Compile Include="Assets\Scripts\ResetObject.cs" />
      <Compile Include="Assets\Scripts\StartButton.cs" />
      <Compile Include="Assets\Scripts\conta.cs" />
      <Compile Include="Assets\Scripts\enemyMove.cs" />

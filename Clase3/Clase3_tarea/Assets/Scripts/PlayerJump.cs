@@ -40,4 +40,19 @@ public class PlayerJump : MonoBehaviour {
 			anim.Play (RUNNING);
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		
+	}
+
+	void OnTriggerEnter2D(Collider2D coll)
+	{
+		anim.Play (IDLE);
+	}
+
+	void OnTriggerExit2D(Collider2D coll)
+	{
+		anim.Play (RUNNING);
+	}
 }

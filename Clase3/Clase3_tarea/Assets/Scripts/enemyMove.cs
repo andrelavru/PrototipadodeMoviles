@@ -4,7 +4,7 @@ using System.Collections;
 public class enemyMove : MonoBehaviour {
 
 	// Use this for initialization
-	public float speed;
+	/*public float speed;
 	Vector3 limit; 
 	void Start () {
 		limit = GameObject.Find ("limit").transform.position;
@@ -22,6 +22,21 @@ public class enemyMove : MonoBehaviour {
 			if (limit.x > transform.position.x) {
 				gameObject.SetActive (false);
 			}
+		}
+	}*/
+
+	Rigidbody2D body;
+	float speed = -3f;
+	void Start()
+	{
+		body = GetComponent<Rigidbody2D> ();
+	}
+
+	void Update()
+	{
+		if (gameObject.activeInHierarchy) 
+		{
+			body.velocity = new Vector2 (speed, 0);
 		}
 	}
 }

@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MonsterGen.cs">
+    <Files>
+      <File FileName="Assets\Scripts\enemyMove.cs" Line="29" Column="18" />
+      <File FileName="Assets\Scripts\PlayerJump.cs" Line="51" Column="18" />
+      <File FileName="Assets\Scripts\MonsterGen.cs" Line="3" Column="34" />
+      <File FileName="Assets\Scripts\ResetObject.cs" Line="16" Column="40" />
+      <File FileName="Assets\Scripts\PanelControler.cs" Line="4" Column="35" />
+      <File FileName="Assets\Scripts\ButtonController.cs" Line="28" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

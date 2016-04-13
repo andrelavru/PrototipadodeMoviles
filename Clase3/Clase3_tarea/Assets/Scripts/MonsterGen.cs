@@ -35,9 +35,15 @@ public class MonsterGen : MonoBehaviour {
 
 	void callMonster(){
 		int index = Random.Range (0, monsters.Count);
-		if (!monsters [index].activeInHierarchy) {
-			monsters [index].SetActive (true);
-			monsters [index].transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+		while (true) {
+			if (!monsters [index].activeInHierarchy) {
+				monsters [index].SetActive (true);
+				monsters [index].transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+				break;
+			} else {
+				index = Random.Range (0, monsters.Count);
+			}
+
 		}
 	}
 }
