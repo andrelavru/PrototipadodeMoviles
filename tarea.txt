@@ -1,0 +1,4 @@
+hud carita monedas boton pausa 
+panel pausa retry - quit
+
+scena opciones
